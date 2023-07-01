@@ -1,0 +1,52 @@
+.contenedor-derecho{
+    border: solid 2px;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: beige;
+
+}
+
+.contenedor-izquierdo{
+    border: solid 2px black;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: blue;
+    color: antiquewhite;
+
+    .titulo{
+        border: solid 1px;
+        text-align: center;
+        color: darkgray;
+    }
+    .numero{
+        border: solid 2px black;
+        border-radius: 100%;
+        width: 160px;
+        height: 160px;
+        text-align: center;
+        
+
+
+
+    }
+
+
+}
+
+.contenedor-total{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    margin: 200px 375px;
+    gap: 10px;
+    
+
+
+
+}
+
