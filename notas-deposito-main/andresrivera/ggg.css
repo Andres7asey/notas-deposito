@@ -1,0 +1,123 @@
+.contenedor-derecho{
+    border: solid 2px;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: beige;
+    text-align: center;
+    
+    .titulo-sum{
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .notas-d{
+        text-align: center;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+
+        .reaction{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-evenly;
+
+            .rea{
+                display: flex;
+            }
+
+        }
+        .memory{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-evenly;
+        }
+        .verbal{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-evenly;
+        }
+        .visual{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-evenly;
+        }
+
+    }
+    
+
+}
+
+.contenedor-izquierdo{
+   /* border: solid 2px black;*/
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    border-radius: 15px;
+    background: linear-gradient(rgb(105, 0, 241),rgb(124, 104, 212));
+    color: antiquewhite;
+    text-align: center;
+    display: flex;
+
+    .resultado{
+        width: 300px;
+        height: 40px;
+
+    }
+    .titulo{
+        /*border: solid 1px;*/
+        text-align: center;
+        color: rgb(238, 238, 238);
+    }
+    .numero{
+        border: solid 0px;
+        border-radius: 100%;
+        width: 160px;
+        height: 160px;
+        background: linear-gradient(rgb(71, 57, 136), rgb(124, 104, 212));
+        margin: 0px 70px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        .mayor{
+        font-size: 70px;
+        text-align: center;
+       /* border: solid 1px;*/
+        margin: 0%;
+        }
+        .menor{
+        /*border: solid 1px;*/
+        text-align: center;
+        }
+        
+    }
+
+    .cualitativo{
+        text-align: center;
+
+    }
+
+    .texto{
+        text-align: center;
+        width: 250px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+
+    }
+}
+
+.contenedor-total{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    margin: 200px 375px;
+
+}
